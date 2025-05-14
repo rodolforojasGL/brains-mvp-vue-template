@@ -1,0 +1,36 @@
+// Root Directory
+index.html = The entry point HTML file that serves as the template for the Vue application
+vite.config.js = Configuration file for Vite build tool, defining project settings and plugins
+package.json = NPM package configuration file containing dependencies and scripts
+jsconfig.json = JavaScript configuration file for VSCode editor settings
+.prettierrc.json = Configuration file for Prettier code formatting
+.gitignore = Specifies which files Git should ignore
+.gitattributes = Specifies attributes for paths in Git
+.editorconfig = Defines coding styles across different editors and IDEs
+eslint.config.js = Configuration file for ESLint code linting
+
+// Source Directory (src/)
+src/main.js = The main JavaScript entry point that initializes the Vue application
+src/App.vue = The root Vue component that serves as the main application container
+
+// Assets Directory (src/assets/)
+src/assets/ = Directory containing static assets like images, styles, and fonts
+
+// Components Directory (src/components/)
+src/components/HelloWorld.vue = A sample component that displays a welcome message
+src/components/TheWelcome.vue = Main welcome component that displays the landing page content
+src/components/WelcomeItem.vue = A reusable component for displaying welcome section items
+src/components/icons/ = Directory containing SVG icon components
+
+// Router Directory (src/router/)
+src/router/index.js = Vue Router configuration file defining application routes and navigation
+
+// Views Directory (src/views/)
+src/views/HomeView.vue = The home page view component of the application
+src/views/AboutView.vue = The about page view component of the application
+
+// Public Directory
+public/ = Directory for static assets that should not be processed by the build system
+
+// Development Configuration
+.vscode/ = Directory containing VS Code editor-specific settings 
